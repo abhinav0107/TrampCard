@@ -22,7 +22,7 @@ app.use("/posts", postRoutes); // Each route start with /posts/route
 app.use("/users", userRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Hellow to Memories API");
+  res.send("Welcome to TrampCard");
 });
 // Connect to DB
 const PORT = process.env.PORT || 5000;
